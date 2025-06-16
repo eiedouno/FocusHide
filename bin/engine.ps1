@@ -46,7 +46,7 @@ $consoleHWND = [Win32]::GetConsoleWindow()
 
 $notifyIcon = New-Object System.Windows.Forms.NotifyIcon
 $notifyIcon.Icon = [System.Drawing.SystemIcons]::Application
-$notifyIcon.Text = "App Monitor - $appName"
+$notifyIcon.Text = "FocusHide - $appName"
 $notifyIcon.Visible = $true
 
 $contextMenu = New-Object System.Windows.Forms.ContextMenuStrip
